@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.suspa.jjhu.contacts.MainActivity">
+    <item
+        android:id="@+id/shengming_app"
+        android:orderInCategory="200"
+        android:title="作者声明"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/about_app"
+        android:orderInCategory="300"
+        android:title="关于"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/exit_app"
+        android:orderInCategory="400"
+        android:title="退出应用"
+        app:showAsAction="never" />
+</menu>

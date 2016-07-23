@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.suspa.jjhu.contacts.MainActivity">
+    <item
+        android:id="@+id/call_someone"
+        android:orderInCategory="100"
+        android:title="一键打电话给对方"
+        app:showAsAction="always" />
+    <item
+    android:id="@+id/send_sms"
+    android:orderInCategory="100"
+    android:title="一键发短信给对方"
+    app:showAsAction="always" />
+    <item
+        android:id="@+id/view_detail"
+        android:orderInCategory="100"
+        android:title="查看对方详情"
+        app:showAsAction="always" />
+</menu>

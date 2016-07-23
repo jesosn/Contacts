@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:minHeight="48dp"
+    android:weightSum="4"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="38dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageView_icon"
+        android:src="@mipmap/user_icon"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="13dp"
+        android:layout_weight="0.8"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="name"
+            android:singleLine="true"
+            android:gravity="center"
+            android:id="@+id/textView_name"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="phone_num"
+            android:gravity="center"
+            android:textSize="12dp"
+            android:id="@+id/textView_phone_num"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_tel"
+        android:textSize="16dp"
+        android:layout_weight="1.2"
+        android:maxLength="4"
+        android:text="100"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="28dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/imageView_call"
+        android:src="@mipmap/bohao"
+        android:layout_marginRight="10dp"
+        />
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/textView_date"-->
+    <!--android:text="2016-7-1"-->
+    <!--/>-->
+
+</LinearLayout>
